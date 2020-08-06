@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <metacharset="utf-8">
+
+    <time></time>
+    <style>
+    /*    .logoimg{
+    float: left;
+    width: 25%;
+    margin-right: 10px;}
+    header{
+        font-family: cursive;
+    }*/
+nav{
+font-family: Optima, Calibri, sans-serif;
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-content: center;
+width: 100vw;
+background-color: inherit;
+position: sticky;
+top: 0;
+z-index: 1;
+flex-grow: 1;
+
+
+}
+nav ul{
+    display: flex;
+    list-style: none;
+
+
+}
+
+nav li{
+padding:1em 2em;
+text-transform: uppercase;
+text-decoration:none;
+font-size: 1.5em;
+}
+.current-page {
+padding: .75em;
+background-color: #ecd078;
+color: #221900;
+}
+a {
+color: inherit;
+text-decoration: none;
+}
+a:hover {
+color: #d95b43;
+text-decoration: underline;
+}
+main{
+display: flex;
+justify-content: center;
+align-content:center;
+width: 100vw;
+
+flex-grow: 1;
+flex-wrap: wrap;
+font-family: Optima, Calibri, sans-serif;
+padding-bottom: 3.5em;
+
+  /*  max-width: 60rem;*/
+ 
+}
+
+footer{
+   display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+width: 100vw;
+
+padding:0.5em 0.5em;
+text-transform: uppercase;
+background-color: hsl(60, 74%, 79%);
+height: auto;
+bottom: 0;
+color:hsl(60, 95%, 7%);
+}
+footer p {
+padding: 0 1.5em;
+}
+body{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+min-height: 100vh;
+    *font-family: Optima, Calibri, sans-serif;
+/*background-color:hsl(60, 95%, 7%);*/
+color: hsl(60, 74%, 79%);
+/*background-image: linear-gradient(to bottom, purple, gold);*/
+
+background-image: linear-gradient(to top left,cyan,rgb(221, 221, 77) 50%,purple);
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 1em 0;
+    flex-grow: 1;
+width: 100vw;
+background-color: hsl(60, 74%, 79%);
+height: 8vh;
+top: 0;
+}
+h1{
+    padding-left: o.5em;
+    font-family: cursive;
+    font-size: 3em;
+    
+color: rgb(128, 0, 128);
+
+}
+h2{
+    color: rgb(128, 0, 128);
+background-color:  hsl(60, 74%, 79%);
+padding: 0 auto 0 auto;
+
+}
+section{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+}
+.divsocial{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+        flex-wrap: wrap;
+        background-color: blue;
+
+}
+img{
+    display: flex;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+    padding-right: 0.5rem;
+}
+.image-thumbnail {
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+.image-thumbnail1 {
+position: relative;
+width: 300px;
+height: 225px;
+}
+.image-caption{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+position:absolute;
+right: 0;
+top: 0;
+width: 300px;
+height: 225px;
+background-color: rgba(32, 32, 32, 0.75);
+color: hsl(60, 32%, 72%);
+opacity: 0;
+}
+.image-caption:hover {
+opacity: 1;
+color: hsl(60, 32%, 72%);
+}
+    </style>
+</head>
+<body>
+    <header>
+
+        <img src="images/newLOGOS.jpg" alt="NozemenInfotech logo" class="logoimg">
+    <h1>NozemenInfotech</h1>
+    </header>
+    <nav>
+<ul >
+    <li> <span class="current-page">Gallery 1</span></li>
+    <li><a href="gallery2.html">Gallery 2</a></li>
+    <li><a href="gallery3.html">Gallery 3</a></li>
+    <li><a href="gallery4.html">Gallery 4</a></li>
+  </ul>
+    </nav>
+
+    <div class="divsocial"> <a href="#social-link">Follow me on social media</a> </div>
+    <main>
+       
+        <div class="image-thumbnail1">
+       <a href="gallery/1.jpg" target="_blank"> <img src="gallery/1 copy.jpg" alt="Thumbnail for
+       image 1">
+       <figcaption class="image-caption">
+        <p class="caption-title">Lovely Couple</p>
+        <p class="caption-text">Together on a lovely day. It was a day that 
+            our fantastic kingdom hall was dedicated to our lovey heavenly
+               father JEHOVAH.
+        </p>
+       </figcaption>
+        </div>
+</a>
+
+    </div>
+    <div class="image-thumbnail1">
+
+       <a href="gallery/2.jpg"> <img src="gallery/2.1.jpg" alt="Thumbnail for
+        image 2">
+        <figcaption class="image-caption">
+            <p class="caption-title">Lovely Couple wth brother' wife</p>
+            <p class="caption-text">Together on a lovely day. It was a day that 
+             our fantastic kingdom hall was dedicated to our lovey heavenly
+                father JEHOVAH. They came from bethel 
+                to join us grace the occassion.
+            </p>
+           </figcaption>
+    </a>
+            </div>
+        <div class="image-thumbnail1">
+        <a href="gallery/4.jpg">  <img src="gallery/4.1.jpg" alt="Thumbnail for
+            image 4">
+            <figcaption class="image-caption">
+                <p class="caption-title">Lovely Couple again</p>
+                <p class="caption-text">Together on a lovely day. It was a day that 
+                 our fantastic kingdom hall was dedicated to our lovey heavenly
+                    father JEHOVAH. 
+                </p>
+               </figcaption>
+        </a>
+                </div>
+            <div class="image-thumbnail1">
+            <a href="gallery/5.jpg"> <img src="gallery/5.1.jpg" alt="Thumbnail for
+                image 5">
+                <figcaption class="image-caption">
+                    <p class="caption-title">Lovely Couple wth brother' wife</p>
+                    <p class="caption-text">Together on a lovely day. It was a day that 
+                     our fantastic kingdom hall was dedicated to our lovey heavenly
+                        father JEHOVAH. They came from bethel 
+                        to join us grace the occassion.
+                    </p>
+                   </figcaption>
+            </a>
+                    </div>
+
+                <div class="image-thumbnail">
+                <a href="gallery/6.jpg"> <img src="gallery/6.1.jpg" alt="Thumbnail for
+                    image 6">
+                    <figure>
+                        <figcaption>
+                         with Brother's family & br/Sis. Lars
+                            
+                        </figcaption>
+                    </figure>
+                </a>
+                        </div>
+                    <div class="image-thumbnail">
+                    <a href="gallery/7.jpg"> <img src="gallery/7.1.jpg" alt="Thumbnail for
+                        image 7">
+                        <figure>
+                            <figcaption>
+                             volunteers at k/Hall dedication
+                           </figcaption>
+                        </figure>
+                    </a>
+                     </div>
+                        <div class="image-thumbnail">
+                    <a href="gallery/8.jpg"> <img src="gallery/8.1.jpg" alt="Thumbnail for
+                        image 8">
+                        <figure>
+                            <figcaption>
+                                Cong. Young ones with Sister Lars
+                            </figcaption>
+                        </figure>
+                    </a>
+                   </div>
+                        <div class="image-thumbnail">
+                    <a href="gallery/9.jpg"> <img src="gallery/9.1.jpg" alt="Thumbnail for
+                        image 9">
+                        <figure>
+                            <figcaption>
+                                with brother in Bethel
+                                
+                            </figcaption>
+                        </figure>
+                    </a>
+                            </div>
+                        <div class="image-thumbnail">
+                        <a href="gallery/10.jpg"> <img src="gallery/10.1.jpg" alt="Thumbnail for
+                            image 10">
+                            <figure>
+                                <figcaption>
+                                    Sis. Lars and sis. Edetan
+                                                                   </figcaption>
+                            </figure>
+                        </a>
+                                </div>
+                            <div class="image-thumbnail">
+                            <a href="gallery/11.jpg"> <img src="gallery/11.1.jpg" alt="Thumbnail for
+                                image 8">
+                                <figure>
+                                    <figcaption>
+                                        brother with brother & Sis. Lars
+                                                                    </figcaption>
+                                </figure>
+                            </a>
+                                    </div>
+                                    <!--
+                                <div class="image-thumbnail">
+                            <a href="gallery/14.jpg"> <img src="gallery/14.1.jpg" alt="Thumbnail for
+                                image 9">
+                                <figure>
+                                    <figcaption>
+                                        Brother with my girl
+                                    </figcaption>
+                                </figure>
+                            </a>
+                                    </div>
+                                <div class="image-thumbnail">
+                                <a href="gallery/13.jpg"> <img src="gallery/13.1.jpg" alt="Thumbnail for
+                                    image 10">
+                                    <figure>
+                                        <figcaption>
+                                            Cong. Young ones with Sister Lars
+                                        </figcaption>
+                                    </figure>
+                                </a>
+                                        </div> -->
+    </main>
+    
+    <footer>
+        <h2 id="social-link" style="text-transform:capitalize"> Follow NozemenInfotech on social media:</h2>
+
+        <section> 
+             
+             <a href="#" class="social-link"><img src="images/Nfacebook2.jpg" alt="Facebook icon"></a>
+             <a href="#" class="social-link"><img src="images/newtwiter2.png" alt="Twitter icon"></a>
+             <a href="#" class="social-link"><img src="images/google-plus-red-logo2.png" alt="Google Plus icon"></a>
+             <a href="#" class="social-link"><img src="images/linkedin2.png" alt="LinkedIn icon"></a>
+         </section>  
+      <nav> 
+          <ul>        
+   <li> <a href="#" class="footer-link">About</a></li>
+   <li> <a href="#" class="footer-link">Contact</a></li>
+   <li> <a href="#" class="footer-link">Site Map</a></li>
+   <li> <a href="#" class="footer-link">Privacy</a></li>
+</ul>
+</nav>
+    Copyright 2020 NozemenInfotech 
+    </footer>
+</body>
+</html>

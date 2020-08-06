@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=media-width, initial-scale=1.0"
+
+<title></title>
+</head>
+<style>
+    *{
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+
+flex-direction: column;
+align-items: center;
+
+}
+.container{
+display: flex;
+flex-direction: column;
+max-width: 960px;}
+.headercontainer{
+display: flex;
+flex-direction: column;
+padding: 1.5%;
+max-width: 960px;
+align-content: flex-start;
+align-items: flex-start;
+flex-grow: 1;
+}
+
+header {
+display: flex;
+flex-direction: columns;
+justify-content: flex-start;
+align-items: center;
+background: url(images/heroimage.webp);
+background-attachment: fixed;
+background-position: right center;
+background-size: cover;
+max-width: 100vw;
+height: 65vh;
+}
+.nav-flex {
+display: flex;
+flex-direction:row;
+padding: 0.5%;
+}
+nav {
+padding: .5em;
+}
+nav ul {
+display: flex;
+justify-content: flex-start;
+list-style-type: none;
+padding-left: 2%;
+}
+nav li {
+padding-right: 20%;
+}
+main {
+    display: flex;
+flex-wrap: wrap;
+flex-grow: 1;
+}
+    .testimonial-div {
+        display: flex;
+    flex-direction: column;
+max-width: 960px;
+flex-grow: 1;
+background-color: cadetblue; 
+}
+
+.mainC {
+display: flex;
+flex-wrap: wrap;
+flex-direction:column;
+flex-grow: 1;
+}
+.mainH {
+display: flex;
+flex-wrap: wrap;
+flex-direction:row;
+flex-grow: 1;
+padding: 0.5%;
+}
+article {
+    flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 150px;
+}
+aside {
+    flex-grow: 2;
+flex-shrink: 0;
+flex-basis: 300px;
+}
+.article1 {
+    flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 300px;
+padding: 1%;
+
+}
+.aside1 {
+    flex-grow: 3;
+flex-shrink: 0;
+flex-basis: 300px;
+}
+
+.testimonial {
+    display: flex;
+flex-wrap: wrap;
+flex-grow: 1;
+    
+color: white;
+
+}
+.testimonial-img {
+    flex-grow: 1;
+flex-shrink: 0;
+flex-basis: 150px;
+}
+.testimonial-txt {
+    flex-grow: 2;
+flex-shrink: 0;
+flex-basis: 300px;
+}
+
+.btn {
+max-height: 2.5em;
+border: none;
+padding: .75em 1.25em;
+font-family: inherit;
+font-size: 1.5em;
+font-weight: bold;
+color: white;
+background-color:blue;
+}
+.social {
+padding: 1em 0;
+font-size: 1.5em;
+text-align: center;
+} #A
+.social-links {
+margin-top: .75em;
+}
+.social-link {
+margin: 0 .25em;
+}
+.footer {
+padding: 1em 0;
+font-variant: small-caps;
+text-align: center;
+background-color: lightgray;
+}
+.footer-links {
+margin-bottom: .75em;
+font-size: 1.5em;
+}
+.footer-link {
+margin: 0 .5em;
+}
+.copyright {
+font-style: italic;
+font-size: 1em;
+}
+img {
+max-width: 100%;
+height: auto;
+}
+.personal-pic {
+display: none;
+}
+@media (min-width: 750px) {
+.personal-pic {
+display: block;
+}
+h1{
+    font-size: 32px;
+}
+}
+</style>
+<body>
+    <div class="headercontainer">
+        <main>
+    <article>
+        <img src="images\NOZEME_LOGOS.jpg2.png" alt="NozemenInfotech logo">
+    </article>
+    <aside>
+    <div class="mainH">
+        <div class="aside1">
+            <h1><span style="color: blue;">NozemenInfotech</span> </h1>
+        </div>
+            <div class="nav-flex">
+                <nav>
+                    <ul>
+                      <li>  <a href="#">Home</a></li>
+                      <li>  <a href="#">Blog</a></li>
+                      <li> <a href="#">Contact</a></li>
+                      <li> <a href="#">About Us</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+
+    </aside>
+    </main>
+    </div>
+    
+<header>
+    <div class="container">
+
+   <main>
+    <article>
+        <img src="images/service1.jpg" 
+sizes="(max-width: 700px) 100vw, 75vw"
+srcset="images/service450.png 450w,
+images/service900.jpg 900w,
+images/director1350.jpg 1350w">
+        
+    </article>
+    <aside>
+        <h1>We create <span style="color:blue;">Amazing Websites</span> at affordable prices
+            <br> Also bring<span style="color:blue;"> ICT</span> to your Door step 
+        </h1>
+        <button class="btn" type="button">See How it Goes!</button>
+   </aside>
+      
+   </main>
+</div>
+</header>
+<!--End of header-->
+<div class="container">
+<main class="mainC">
+    <h1 style="color:blue; text-transform:uppercase ;"><span>NozemenInfotech</span> </h1><h1 style="font-style: italic; text-transform:capitalize;">website design and ict company benin city nigeria</h1>
+    <h2>
+        NozemenInfotech is an innovative website Design and ICT company based in Benin City, Edo State in Nigeria NozemenInfotech
+We work as a team to create beautiful and engaging digital experience.
+We help businesses to leverage technology to save cost and increase profit.
+We are committed to delivering only the best.
+<b>Contact us</b> or check <b>our features</b>
+    </h2>
+</main>
+</div>
+<div class="testimonial-div">
+
+    <div class="testimonial">
+        <div class="testimonial-txt">
+
+        <p>
+            NozemenInfotech blew us away with the exceptional branding
+            and amazing website they produced for our company on 
+            such a short notice. We've been able to close promotional deals 
+            with two of Europe's most exciting teams because of their invaluable work.
+            They are a partner we will always work with."</p>
+        </div>
+    <div class="testimonial-img">
+        <figure>
+            <img src="images/wife_3.jpg">
+            <figcaption style="color: white;font-style: italic;">Stephanie </figcaption>
+              </figure>
+    </div>
+</div>
+
+</div>
+
+</div>
+<hr style="width:960px; color: black;">
+<div class="container">
+    <main>
+        <article>
+            <h1 style="font-style: italic;"> 4 ways we grow your online profits</h1>
+        </article>
+        <aside>
+            <div class="mainH">
+                <div class="article1">
+                <h2 style="color: black; background-color: white;font-style: italic;">Web Design</h2>
+                <div class="services-img"> <img src="images\web-design3.jpg"></div>
+                 <p>
+                You want to sell more. And we can help. We will build you a stunning website that compels visitors to take action and become customers
+            </p>
+        </div>
+        <div class="article1">
+        <h2 style="color: black;background-color: white;font-style:
+         italic;">CMS Development
+        </h2>
+        <div class="services-img"> <img src="images\dashboard2.jpg"></div>
+       <p>
+            With our CMS, you can easily create and manage your website content. No knowledge of web design is required
+        </p>  
+      </div>
+            </div>
+      <div class="mainH">
+
+      <div class="article1">
+
+      <h2 style="color: black;background-color: white;font-style: italic;">eCommerce Solution
+    </h2>
+    <div class="images/services-img"> <img src="images\ecomerce2.jpg"></div>
+    <p>
+        NozemenInfotech offers an easy to use ecommerce solution that enables your customers pay for products/services    </p>
+      </div>
+      <div class="article1">
+            <h2 style="color: black;background-color: white;font-style: italic;">Online Marketing
+            </h2>
+            <div class="services-img"> <img src="images\marketingNew.png"></div>
+        
+            <p>
+                We analyze, strategize and develop smart and creative online marketing campaigns to drive targeted traffic to your website.
+          
+      </div>
+            </div>
+        </aside>
+        </main>
+    </div>
+    <hr style="width:960px; color: black;">
+
+        <div class="social">
+            <div>
+                Follow NozemenInfotech on social media:
+                </div>
+                <div class="social-links">
+                <a href="#" class="social-link"><img src="images/Nfacebook2.jpg" alt="Facebook icon"></a>
+                <a href="#" class="social-link"><img src="images/newtwiter2.png" alt="Twitter icon"></a>
+                <a href="#" class="social-link"><img src="images/google-plus-red-logo2.png" alt="Google Plus icon"></a>
+                <a href="#" class="social-link"><img src="images/linkedin2.png" alt="LinkedIn icon"></a>
+                </div>    </div>
+        <div class="footer">
+    <div class="footer-links">
+    <a href="#" class="footer-link">About</a>
+    <a href="#" class="footer-link">Contact</a>
+    <a href="#" class="footer-link">Site Map</a>
+    <a href="#" class="footer-link">Privacy</a>
+    </div>
+    <div class="copyright">
+    Copyright 2020 NozemenInfotech 
+    </div>
+        </div>
+</body>
+
+</html>
